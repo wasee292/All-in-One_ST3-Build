@@ -1,0 +1,16 @@
+1) Open sublime console (ctrl+`)
+
+2) Type the following code in thr console (appears at bottom of screen)
+
+window.set_layout({  'cols':[0,0.5,1.0],'rows':[0.0,0.75,1.0], 'cells':[[0,0,2,1],[0,1,1,2],[1,1,2,2]]})
+
+3) Restart Sublime
+
+Note
+----
+The given code creates a layout as in img1.png
+You can create your layouts by going through the reference
+
+Reference
+---------
+https://nikolaloncar.com/sublime-text-custom-layout-tutorial-inside-out-with-examples/

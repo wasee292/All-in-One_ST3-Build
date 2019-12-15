@@ -1,0 +1,9 @@
+[
+	{ "keys": ["ctrl+alt+b"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "C"} },
+	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "C++"} },
+	{ "keys": ["ctrl+alt+j"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Java"} },
+	{ "keys": ["ctrl+alt+n"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Python2"} },
+	{ "keys": ["ctrl+alt+m"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Python3"} },
+	{ "keys": ["ctrl+alt+c"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Shell"} },
+	{ "keys": ["ctrl+alt+f"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Swift"} }
+]

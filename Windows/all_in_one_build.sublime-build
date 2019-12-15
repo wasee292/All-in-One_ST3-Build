@@ -1,0 +1,34 @@
+{
+	"variants" : [
+					{
+						"name" : "C/C++",
+						"cmd": ["g++", "${file}", "-o", "${file_base_name}.exe", "&&" , "${file_base_name}.exe<inputf.in>outputf.in"],						"selector" : "source.c",
+						"shell": true,
+						"working_dir" : "$file_path"
+					},
+
+					{
+						"name" : "Java",
+						"cmd" : ["javac", "${file}", "&&" ,"java", "${file_base_name}<inputf.in>outputf.in"],
+						"selector" : "source.java",
+						"shell" : true,
+						"working_dir" : "$file_path"
+					},
+
+					{
+						"name" : "Python2",
+						"cmd" : ["py", "-2", "${file}<inputf.in>outputf.in"],
+						"selector" : "source.python",
+						"shell" : true,
+						"working_dir" : "$file_path"
+					},
+
+					{
+						"name" : "Python3",
+						"cmd" : ["py", "-3", "${file}<inputf.in>outputf.in"],
+						"selector" : "source.python",
+						"shell" : true,	
+						"working_dir" : "$file_path"
+					}
+				 ]
+}
