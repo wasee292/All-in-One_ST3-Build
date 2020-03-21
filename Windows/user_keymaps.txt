@@ -1,6 +1,5 @@
 [
 	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "C/C++"} },
 	{ "keys": ["ctrl+alt+j"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Java"} },
-	{ "keys": ["ctrl+alt+n"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Python2"} },
-	{ "keys": ["ctrl+alt+m"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Python3"} },
+	{ "keys": ["ctrl+alt+n"], "command": "build", "args": {"build_system": "Packages/User/z.sublime-build", "variant": "Python3"} },
 ]

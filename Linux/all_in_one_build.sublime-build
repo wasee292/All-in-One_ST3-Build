@@ -1,17 +1,8 @@
 {
 	"variants" : [
 					{
-						"name" : "C",
-						"cmd" : ["gcc $file_name -o $file_base_name && timeout 8s ./$file_base_name<inputf.in>outputf.in"], 
-						"selector" : "source.c",
-						"shell": true,
-						"working_dir" : "$file_path"
-					},
-
-					{
-						"name" : "C++",
+						"name" : "C/C++",
 						"cmd" : ["g++ -std=c++14 $file_name -o $file_base_name && timeout 8s ./$file_base_name<inputf.in>outputf.in"], 
-						"selector" : "source.c",
 						"shell": true,
 						"working_dir" : "$file_path"
 					},
@@ -19,15 +10,6 @@
 					{
 						"name" : "Java",
 						"cmd" : ["javac $file_name && java $file_base_name<inputf.in>outputf.in"],
-						"selector" : "source.java",
-						"shell" : true,
-						"working_dir" : "$file_path"
-					},
-
-					{
-						"name" : "Python2",
-						"cmd" : ["python $file_name<inputf.in>outputf.in"],
-						"selector" : "source.python",
 						"shell" : true,
 						"working_dir" : "$file_path"
 					},
@@ -35,23 +17,7 @@
 					{
 						"name" : "Python3",
 						"cmd" : ["python3 $file_name<inputf.in>outputf.in"],
-						"selector" : "source.python",
 						"shell" : true,	
-						"working_dir" : "$file_path"
-					},
-
-					{
-						"name" : "Swift",
-						"cmd" : ["swift $file_name<inputf.in>outputf.in"],
-						"shell" : true,	
-						"working_dir" : "$file_path"
-					},
-
-					{
-						"name" : "Shell",
-						"cmd" : ["sh $file_name<inputf.in>outputf.in"],
-						"selector" : "source.sh",
-						"shell" : true,
 						"working_dir" : "$file_path"
 					}
 				 ]
